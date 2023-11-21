@@ -204,6 +204,13 @@
     font-size: 50;
   }
 
+  body {
+    background: url(../img/gestao-de-trafego-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
   h2 {
     font-size: 4.8rem;
   }

@@ -1,8 +1,12 @@
 html {
   height: 100%;
-}¨
+}
 
 body {
+  background: url(../img/gestao-de-trafego.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100%;
 }
 
@@ -88,13 +92,6 @@ header .container nav .menu-social img:hover {
 
 
 /* Section hero */
-.s-hero {
-  background: url(../img/gestao-de-trafego.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 .s-hero .container {
   display: flex;
   flex-direction: column;
