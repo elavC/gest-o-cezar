@@ -112,7 +112,7 @@ header .container nav .menu-social img:hover {
 .s-hero .container .title h1 {
   font-family: "Inter";
   font-weight: 700;
-  font-size: 6.4rem;
+  font-size: 5.6rem;
   line-height: 7.7rem;
   text-align: center;
   color: var(--white-color);
@@ -226,14 +226,17 @@ header .container nav .menu-social img:hover {
 
 /* About */
 
+
 .s-about {
   background-color: var(--black-color-medium);
   padding: 6rem 0;
 }
 
-.s-about .container {
+.s-about .global {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
 }
 
 .s-about .container .about-me {
@@ -241,12 +244,27 @@ header .container nav .menu-social img:hover {
   max-width: 71rem;
 }
 
+.s-about .about-me .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-top: 24px;
+}
+
+.s-about .about-me .wrapper .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.s-about .about-me .btn-primary {
+  width: fit-content;
+}
+
 .s-about .container .about-me p {
+  line-height: 2.8rem;
   font-weight: 400;
-  line-height: 2.4rem;
   font-size: 1.6rem;
   color: rgba(255, 255, 255, 0.83);
-  margin-top: 2.4rem;
 }
 
 .s-about .container .about-me ul {
@@ -266,6 +284,9 @@ header .container nav .menu-social img:hover {
   border-radius: 10px;
 }
 
+.modal {
+  margin-top: 24px;
+}
 
 /* SKILLS */
 
@@ -275,7 +296,7 @@ header .container nav .menu-social img:hover {
 
 .s-skills>.container h2{
   margin-bottom: 7.2rem;
-  text-align: center;
+  margin-left: 16px;
 }
 
 .s-skills .skills {
@@ -346,9 +367,10 @@ header .container nav .menu-social img:hover {
 }
 
 .s-cases .container .cases .case {
-  border: 2px solid #00fefad4;
+  border: 4px solid #00fefad4;
   width: 200px;
   border-radius: 50%;
+    overflow: hidden;
 }
 
 .s-cases .container .cases .case:nth-child(1) {
@@ -366,6 +388,84 @@ background-color: white;
 
 .s-cases .container .cases img:hover {
   transform: translateY(-2%);
+}
+
+
+/* PLANOS */
+
+section.plans  {
+  color: white;
+  width: 100%;
+  margin-bottom: 12.4rem;
+}
+
+section.plans .title-plan {
+  text-align: center;
+  margin: 56px 0;
+  font-size: 48px;
+  font-weight: bold;
+  color: #00fefad4;
+}
+
+section.plans .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 48px;
+  align-items: center;
+}
+
+section.plans .wrapper .plan {
+  /* border: 1px solid #00fefad4; */
+  border-radius: 12px;
+  padding: 48px 12px;
+  background-color: rgba(240, 248, 255, 0.093);
+  box-shadow: rgba(122, 122, 122, 0.662) 0px 5px 15px;
+}
+
+section.plans .wrapper .plan .content {
+  display: flex;
+  flex-direction: column;
+}
+
+section.plans .wrapper .plan h3 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 32px;
+}
+
+section.plans .wrapper .plan p {
+  font-size: 20px;
+}
+
+section.plans .wrapper .plan .price {
+  text-align: center;
+  margin-top: 24px;
+}
+
+section.plans .wrapper .plan ul {
+  font-size: 16px;
+}
+
+section.plans .wrapper .plan li {
+  list-style: inside;
+}
+
+section.plans .wrapper .plan a {
+  text-decoration: none;
+  border: 1px solid #00fefad4;
+  border-radius: 12px;
+  padding: 8px 24px;
+  font-size: 16px;
+  width: fit-content;
+  margin: 24px auto 12px auto;
+}
+
+section.plans .wrapper .plan a:hover {
+  background-color: #00fefa39;
+  transform: scale(1.1);
+  transition: 0.3 s;
+
 }
 
 /* Contact */

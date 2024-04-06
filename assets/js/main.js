@@ -1,6 +1,13 @@
 /* Scroll reveal - 
 Mostrar o elemento quando der scroll na página */
 
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+
 const scrollReveal = ScrollReveal({
   origin: "top",
   distance: "5px",

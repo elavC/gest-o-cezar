@@ -1,4 +1,4 @@
-@media (max-width: 1260px) {
+@media (max-width: 1300px) {
   .s-success .container {
     flex-direction: column;
   }
@@ -12,21 +12,29 @@
   .s-success .container .title-success h2 {
     text-align: center;
   }
+
+  .s-about .container .my-picture img {
+    border-radius: 10px;
+    width: 300px;
+  }
+
 }
 @media (max-width: 1133px) {
-  .s-about .container {
-    flex-direction: column;
-    align-items: center;
-    gap: 3.2rem;
-  }
   .s-about .container .about-me h2 {
-    text-align: center;
+    margin-bottom: 56px;
   }
-  .s-about .container .about-me p {
-    text-align: center;
-  }
+
   .s-about .container .about-me ul {
     justify-content: center;
+  }
+
+  .s-about .container .my-picture img {
+    border-radius: 10px;
+    width: 300px;
+  }
+
+  section.plans .wrapper .plan ul {
+    font-size: 12px;
   }
 }
 @media (max-width: 1000px) {
@@ -173,9 +181,17 @@
   header .container nav .menu li a {
     font-size: 2.4rem;
   }
-}
 
-@media (max-width: 768px) {
+  .s-skills>.container h2 {
+    text-align: center;
+  }
+
+
+  .s-about .container .my-picture img {
+    border-radius: 10px;
+    width: 250px;
+  }
+
 }
 
 @media (max-width: 624px) {
@@ -197,6 +213,30 @@
   .s-success .container .cards .card .card-info p {
     text-align: center;
   }
+  h1 {
+    font-size: 24px;
+  }
+
+  .s-about .global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .s-about .global .btn-primary {
+    margin: auto;
+  }
+
+  .s-about .container .my-picture img {
+    margin-top: 48px;
+  }
+
+section.plans h2 {
+  text-align: center;
+}
+
 }
 
 @media (max-width: 500px) {
@@ -214,4 +254,14 @@
   h2 {
     font-size: 4.8rem;
   }
+
+  .s-hero .container .title h1 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 7.7rem;
+    text-align: center;
+    color: var(--white-color);
+  }
+
 }

@@ -39,13 +39,23 @@ h2 span {
 }
 
 .btn-primary {
-  border-radius: 24px;
+  border-radius: 4px;
   font-weight: 700;
   line-height: 2.4rem;
   font-size: 1.6rem;
   background-color: var(--primary-color);
   color: var(--black-color);
   padding: 1rem 2.6rem;
+  transition: all 0.2s;
+}
+
+.btn-sm {
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  background-color: var(--primary-color);
+  color: var(--black-color);
+  padding: 0.8rem 2.6rem;
   transition: all 0.2s;
 }
 
