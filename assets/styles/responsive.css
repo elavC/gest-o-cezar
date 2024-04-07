@@ -237,6 +237,10 @@ section.plans h2 {
   text-align: center;
 }
 
+section.plans .wrapper {
+  flex-direction: column;
+}
+
 }
 
 @media (max-width: 500px) {

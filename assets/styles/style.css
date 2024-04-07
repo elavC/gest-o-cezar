@@ -409,14 +409,12 @@ section.plans .title-plan {
 
 section.plans .wrapper {
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
   gap: 48px;
   align-items: center;
 }
 
 section.plans .wrapper .plan {
-  /* border: 1px solid #00fefad4; */
   border-radius: 12px;
   padding: 48px 12px;
   background-color: rgba(240, 248, 255, 0.093);
