@@ -257,9 +257,9 @@ section.plans h2 {
 
   .s-hero .container .title h1 {
     font-family: "Inter";
-    font-weight: 700;
+    font-weight: bolder;
     font-size: 3.2rem;
-    line-height: 7.7rem;
+    line-height: 5.6rem;
     text-align: center;
     color: var(--white-color);
   }
