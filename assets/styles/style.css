@@ -1,0 +1,424 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: url(../img/gestao-de-trafego.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+/* Header */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 4rem 0px;
+  z-index: 2021;
+}
+
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+s {
+  text-decoration: line-through;
+}
+
+.logo img {
+  width: 64px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+
+/* Section hero */
+.s-hero {
+  height: 100vh;
+}
+
+.s-hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-hero .container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 59.2rem;
+  margin-top: 24rem;
+  padding-bottom: 6rem;
+  gap: 32px;
+}
+
+.s-hero .container .title h1 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 5.6rem;
+  line-height: 7.7rem;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.s-hero .container .title h1 span {
+  color: var(--primary-color);
+}
+
+.s-hero .container .title h2 {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 3.2rem;
+}
+
+.s-hero .container .title p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-align: center;
+  color: var(--second-color);
+  background-color: rgba(240, 248, 255, 0.073);
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.s-hero .container .title p span {
+  font-weight: bold;
+  font-size: 20px;
+  color: green;
+}
+
+.s-hero .container .title .techs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+  margin-top: 2.3rem;
+}
+
+
+/* Section Success */
+.s-success {
+  padding: 14.4rem 0;
+  margin: 0 auto;
+  background-image: url(../img/bg-section-sucess.jpg);
+}
+
+.s-success .container {
+  display: flex;
+  align-items: center;
+  gap: 4.4rem;
+}
+
+.s-success .container .cards {
+  display: flex;
+  gap: 48px;
+}
+
+.s-success .container .cards .card {
+  width: 100%;
+  background-color: var(--white-color);
+  border-radius: 4px;
+  padding: 24px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: rgba(255, 255, 255, 0.032) 0px 14px 28px, rgba(255, 255, 255, 0.032) 0px 10px 10px;
+}
+
+.s-success .container .cards .card:hover {
+  filter: brightness(90%);
+}
+
+.s-success .container .cards .card:nth-child(2) {
+  background-color: var(--primary-color);
+}
+
+.s-success .container .cards .card:last-child {
+  margin-right: 0;
+}
+
+.s-success .container .cards .card .card-title h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.s-success .container .cards .card .card-info p {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+
+.s-success .container .cards .card .card-info p:nth-child(2) {
+  margin-top: 2rem;
+}
+
+
+/* About */
+.s-about {
+  background-color: var(--black-color-medium);
+  padding: 6rem 0;
+  width: 100%;
+}
+
+.s-about .about-me .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-top: 24px;
+}
+
+.s-about .about-me .wrapper .container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.s-about .container .about-me ul {
+  display: flex;
+  gap: 2.4rem;
+  margin-top: 3.2rem;
+}
+
+.s-about .container .about-me ul li {
+  font-size: 16px;
+  color: rgb(238, 255, 249);
+}
+
+.s-about .container .about-me ul li strong {
+  font-size: 20px;
+  color: aquamarine
+}
+
+
+/* SKILLS */
+.s-skills {
+  background-color: black;
+}
+
+
+.s-skills>.container {
+  padding: 14rem 0;
+}
+
+.s-skills>.container h2{
+  margin-bottom: 7.2rem;
+  margin-left: 16px;
+}
+
+.s-skills .skill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 48px;
+}
+
+.s-skills .skill .wrapper {
+  width: 350px;
+  background-color: rgba(86, 100, 22, 0.055);
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.s-skills .skill .img {
+  margin-bottom: 4px;
+  width: 300px;
+}
+
+.s-skills .skill .img img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.s-skills .skill .container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.s-skills .skill .container h3 {
+  font-size: 20px;
+  color: rgb(170, 255, 255);
+  margin-top: 8px;
+}
+
+.s-skills .skill .container p {
+  font-size: 12px;
+}
+
+
+/* PLANOS */
+section.plans  {
+  color: white;
+  width: 100%;
+  background-color: var(--black-color-medium);
+  height: 85vh;
+  display: flex;
+}
+
+section.plans .container {
+  margin: auto;
+}
+
+section.plans .title-plan {
+  text-align: center;
+  margin: 56px 0;
+  font-size: 48px;
+  font-weight: bold;
+  color: #00fefad4;
+}
+
+section.plans .wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 48px;
+  align-items: center;
+}
+
+section.plans .wrapper .plan {
+  margin-top: 64px;
+  border-radius: 12px;
+  padding: 48px 12px;
+  background-color: rgba(240, 248, 255, 0.093);
+  box-shadow: rgba(122, 122, 122, 0.662) 0px 5px 15px;
+  width: 50%;
+}
+
+section.plans .wrapper .plan .content {
+  display: flex;
+  flex-direction: column;
+}
+
+section.plans .wrapper .plan p {
+  font-size: 24px;
+}
+
+section.plans .wrapper .plan .price {
+  text-align: center;
+  margin-top: 24px;
+  color: green;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+section.plans .wrapper .plan ul {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+section.plans .wrapper .plan li {
+  list-style: inside;
+}
+
+section.plans .wrapper .plan a {
+  text-decoration: none;
+  border: 1px solid #00fefad4;
+  border-radius: 12px;
+  padding: 8px 24px;
+  font-size: 16px;
+  width: fit-content;
+  margin: 24px auto 12px auto;
+}
+
+section.plans .wrapper .plan a:hover {
+  background-color: #00fefa39;
+  transform: scale(1.1);
+  transition: 0.3 s;
+
+}
+
+
+/* Contact */
+.s-contact {
+  padding-bottom: 4rem;
+  background-color: var(--black-color-medium);
+}
+
+.s-contact .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.s-contact .container .title-contact h2 {
+  margin-bottom: 2.4rem;
+}
+
+.s-contact .container .form-contact {
+  width: 100%;
+  max-width: 48.6rem;
+}
+
+.s-contact .container .form-contact .input-group input[type="text"] {
+  margin-bottom: 3.1rem;
+}
+.s-contact .container .form-contact .input-group textarea {
+  margin-bottom: 0;
+}
+.input-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.s-contact .container .form-contact .submit {
+  border-radius: 2.4rem;
+  background-color: var(--primary-color);
+  padding: 1rem 2.4rem;
+  border: none;
+  margin-top: 1.7rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/*Footer*/
+
+footer {
+  background-color: var(--black-color-medium);
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container .copy {
+  padding: 5.2rem 0;
+}
+
+footer .container .copy {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
